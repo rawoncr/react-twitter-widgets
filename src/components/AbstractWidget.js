@@ -35,9 +35,9 @@ export default class AbstractWidget extends React.Component {
   }
 
   done() {
-    if (this.willUnmount) {
+    // if (this.willUnmount) {
       this.removeChildrenExceptLast(this.refs.widgetWrapper)
-    }
+    // }
   }
 
   removeChildren(node) {
