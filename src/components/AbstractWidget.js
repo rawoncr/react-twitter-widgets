@@ -57,6 +57,6 @@ export default class AbstractWidget extends React.Component {
   }
 
   render() {
-    return <div ref="widgetWrapper" />
+    return <div ref="widgetWrapper" style={{height:'100%'}}/>
   }
 }

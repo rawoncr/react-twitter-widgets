@@ -92,7 +92,7 @@ var AbstractWidget = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', { ref: 'widgetWrapper' });
+      return _react2.default.createElement('div', { ref: 'widgetWrapper', style: { height: '100%'} });
     }
   }]);
 
